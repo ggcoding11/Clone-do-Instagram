@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "/photos/logo.png";
+import "./App.css";
 
 const App = () => {
   return (
@@ -16,6 +17,17 @@ const App = () => {
           </div>
         </div>
       </nav>
+
+      <div className="d-inline-flex gap-4">
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+        <div className="story">o</div>
+      </div>
     </div>
   );
 };
