@@ -18,7 +18,8 @@ const App = () => {
         </div>
       </nav>
 
-      <div className="d-inline-flex gap-4">
+      <div className="story-row d-flex gap-4">
+        <div className="story">o</div>
         <div className="story">o</div>
         <div className="story">o</div>
         <div className="story">o</div>
