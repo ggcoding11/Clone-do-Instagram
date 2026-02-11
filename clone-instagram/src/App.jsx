@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "/photos/logo.png";
+import iconStory from "/photos/icon-story.jpg";
 import "./App.css";
 
 const App = () => {
@@ -19,15 +20,45 @@ const App = () => {
       </nav>
 
       <div className="story-row d-flex gap-4">
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
-        <div className="story">o</div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
+        <div className="story">
+          <img className="icon-story" src={iconStory} alt="icon-story" />
+        </div>
       </div>
     </div>
   );
