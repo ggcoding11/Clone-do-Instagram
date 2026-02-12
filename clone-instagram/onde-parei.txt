@@ -1,3 +1,0 @@
-- Preciso fazer a linha de stories
-- Entender mais sobre como funciona os diferentes tipos de display
-- Continuar o resto do projeto

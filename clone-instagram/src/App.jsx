@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "/photos/logo.png";
+import userIconStory from "/photos/user-icon-story.jpg";
 import iconStory from "/photos/icon-story.jpg";
 import "./App.css";
 
@@ -10,54 +11,82 @@ const App = () => {
       <nav className="navbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="https://www.instagram.com/">
-            <img src={logo} width={100} height={44} alt="Logo" />
+            <img src={logo} alt="Logo" />
           </a>
-          <div className="d-flex align-items-center gap-2">
-            <i className="bi bi-plus-lg fs-2"></i>
-            <i className="bi bi-suit-heart fs-4"></i>
+          <div className="navbar-icons">
+            <i className="bi bi-plus-lg"></i>
+            <i className="bi bi-suit-heart"></i>
           </div>
         </div>
       </nav>
 
-      <div className="story-row d-flex gap-4">
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+      <div className="story-row">
+        <div className="story-container">
+          <div className="story-circle">
+            <img className="story-icon" src={userIconStory} alt="icon-story" />
+          </div>
+
+          <span className="story-username">Seu story</span>
+
+          <div className="story-add-icon">
+            <i className="bi bi-plus-lg"></i>
+          </div>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
-        </div>
-        <div className="story">
-          <img className="icon-story" src={iconStory} alt="icon-story" />
+        <div className="story-container">
+          <div className="story-circle other-user">
+            <div className="story-circle-whitespace">
+              <img className="story-icon" src={iconStory} alt="icon-story" />
+            </div>
+          </div>
+
+          <span className="story-username other-user">harumi_2</span>
         </div>
       </div>
     </div>
