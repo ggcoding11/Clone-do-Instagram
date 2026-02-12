@@ -21,6 +21,7 @@
   gap: 1.2em;
   overflow: auto;
   scrollbar-width: none;
+  margin-bottom: 1.4em;
 }
 
 .story-container {
