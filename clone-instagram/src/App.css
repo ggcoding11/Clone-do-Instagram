@@ -152,6 +152,10 @@
   overflow: hidden;
 }
 
+.description-text:has(#expand:checked) {
+  max-height: none;
+}
+
 .post-description .past-time {
   font-size: 0.8em;
 }

@@ -149,59 +149,14 @@ const App = () => {
                 provas e decidir se apresenta denúncia formal à Justiça. Até o
                 momento, a defesa dos envolvidos não se manifestou.
               </div>
-              <span className="text-secondary">Mais...</span>
+              <input
+                type="checkbox"
+                name="expand"
+                id="expand"
+                className="expand d-none"
+              />
+              <label htmlFor="expand" className="text-secondary">Mais...</label>
               <div className="past-time text-secondary">há 15 minutos</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="post-container row mb-2">
-        <div className="col-12">
-          <div className="post-header row">
-            <div className="col-6">
-              <div className="post-user-info">
-                <div className="post-circle">
-                  <img
-                    className="post-user-icon"
-                    src={userIconPost1}
-                    alt="icon-user-post"
-                  />
-                </div>
-
-                <span className="post-username">amorabernesse</span>
-              </div>
-            </div>
-            <div className="col-6">
-              <div className="d-flex justify-content-end">
-                <i class="bi bi-three-dots"></i>
-              </div>
-            </div>
-          </div>
-          <div className="post-image row">
-            <div className="col-12">
-              <img className="img-fluid" src={post1} alt="post-image" />
-            </div>
-          </div>
-          <div className="post-action-row row">
-            <div className="col-6">
-              <div className="d-flex gap-2">
-                <i class="bi bi-suit-heart"></i>
-                <i class="bi bi-chat"></i>
-                <i class="bi bi-send"></i>
-              </div>
-            </div>
-            <div className="col-6 d-flex justify-content-end">
-              <i class="bi bi-bookmark"></i>
-            </div>
-          </div>
-          <div className="post-description row">
-            <div className="col-12">
-              <div>
-                <span className="fw-semibold me-1">amorabernesse</span>
-                Dia de passear com essa princesa
-              </div>
-              <span className="past-time text-secondary">há 15 minutos</span>
             </div>
           </div>
         </div>

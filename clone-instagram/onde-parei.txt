@@ -1,2 +1,3 @@
-- Ver como colocar aquele "mais" para expandir a
-descrição do post
+- Ver como utilizar o "has" do CSS
+- Tentar resolver o problema do "has" para colocar o "mais" para expandir a descrição do post
+- Ver como colocar aquele "mais" para expandir a descrição do post
