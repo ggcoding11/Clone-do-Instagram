@@ -1,3 +1,2 @@
-- Dar uma refatorada no CSS do post
 - Ver como colocar aquele "mais" para expandir a
 descrição do post

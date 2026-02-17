@@ -147,6 +147,11 @@
   font-size: 0.9em;
 }
 
+.description-text {
+  max-height: 2lh;
+  overflow: hidden;
+}
+
 .post-description .past-time {
   font-size: 0.8em;
 }
