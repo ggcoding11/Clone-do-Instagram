@@ -152,8 +152,16 @@
   overflow: hidden;
 }
 
-.description-text:has(#expand:checked) {
+.description-text:has(~ .expand-text-checkbox:checked) {
   max-height: none;
+}
+
+.expand-text-checkbox {
+  display: none;
+}
+
+.expand-text-checkbox:checked ~ .expand-text {
+  display: none;
 }
 
 .post-description .past-time {

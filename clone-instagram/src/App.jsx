@@ -112,7 +112,7 @@ const App = () => {
             </div>
             <div className="col-6">
               <div className="d-flex justify-content-end">
-                <i class="bi bi-three-dots"></i>
+                <i className="bi bi-three-dots"></i>
               </div>
             </div>
           </div>
@@ -124,13 +124,13 @@ const App = () => {
           <div className="post-action-row row">
             <div className="col-6">
               <div className="d-flex gap-2">
-                <i class="bi bi-suit-heart"></i>
-                <i class="bi bi-chat"></i>
-                <i class="bi bi-send"></i>
+                <i className="bi bi-suit-heart"></i>
+                <i className="bi bi-chat"></i>
+                <i className="bi bi-send"></i>
               </div>
             </div>
             <div className="col-6 d-flex justify-content-end">
-              <i class="bi bi-bookmark"></i>
+              <i className="bi bi-bookmark"></i>
             </div>
           </div>
           <div className="post-description row">
@@ -149,13 +149,18 @@ const App = () => {
                 provas e decidir se apresenta denúncia formal à Justiça. Até o
                 momento, a defesa dos envolvidos não se manifestou.
               </div>
+
               <input
                 type="checkbox"
-                name="expand"
-                id="expand"
-                className="expand d-none"
+                id="expand-text-checkbox"
+                className="expand-text-checkbox"
               />
-              <label htmlFor="expand" className="text-secondary">Mais...</label>
+              <label
+                htmlFor="expand-text-checkbox"
+                className="expand-text text-secondary"
+              >
+                Mais...
+              </label>
               <div className="past-time text-secondary">há 15 minutos</div>
             </div>
           </div>
