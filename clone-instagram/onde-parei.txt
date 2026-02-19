@@ -1,3 +1,2 @@
 - Colocar mais posts
-- Ver se o CSS precisa formatar mais alguma coisa
 - Continuar o projeto
