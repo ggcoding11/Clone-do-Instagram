@@ -135,6 +135,12 @@
   font-weight: 640;
 }
 
+.post-user-follow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(57, 123, 185);
+}
+
 .post-action-row {
   padding: 0.4rem;
 }
