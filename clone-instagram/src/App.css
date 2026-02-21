@@ -1,5 +1,19 @@
+.main {
+  position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .navbar-brand img {
   width: 6rem;
+}
+
+.navbar-brand .bi {
+  font-size: 1rem;
 }
 
 .navbar-icons {
@@ -80,6 +94,32 @@
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+
+.footer-row {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+
+  border-top: 1px solid rgb(173, 173, 173);
+}
+
+.footer-user-circle {
+  position: relative;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  overflow: hidden;
+}
+
+.footer-user-icon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .story-add-icon {
@@ -169,4 +209,3 @@
 .expand-text-checkbox:checked ~ .expand-text {
   display: none;
 }
-

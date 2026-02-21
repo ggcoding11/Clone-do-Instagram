@@ -1,2 +1,2 @@
-- Colocar mais posts
-- Continuar o projeto
+- Arrumar o botão de "mais" de cada post
+- Ver se o CSS do footer está top
