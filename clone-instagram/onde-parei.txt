@@ -1,2 +1,2 @@
-- Arrumar o botão de "mais" de cada post
+- Tentar centralizar mais o CSS do user-icon-story, o da foto no caso
 - Ver se o CSS do footer está top
