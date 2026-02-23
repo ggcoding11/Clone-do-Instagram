@@ -1,2 +1,1 @@
-- Tentar centralizar mais o CSS do user-icon-story, o da foto no caso
-- Ver se o CSS do footer está top
+- Continuar o projeto
