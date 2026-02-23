@@ -1,1 +1,3 @@
+- Colocar os 3 pontinhos no final da descrição do post (talvez o whitespace, resolva)
+- Arrumar fonte dos elementos
 - Continuar o projeto

@@ -146,18 +146,18 @@
 }
 
 .post-circle {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.post-circle-whitespace {
   width: 2.4rem;
   height: 2.4rem;
 }
 
-.post-circle-whitespace {
-  width: 2.2rem;
-  height: 2.2rem;
-}
-
 .post-username {
-  font-size: 0.8rem;
-  font-weight: 640;
+  font-size: 0.9rem;
+  font-weight: 560;
 }
 
 .post-user-follow {
@@ -175,7 +175,7 @@
 }
 
 .post-description {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .description-text {
