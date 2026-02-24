@@ -1,3 +1,4 @@
+- Alinhar o "mais" na mesma linha da descrição do post (Eu desfiz a lógica anterior, vou refazer!)
 - Colocar os 3 pontinhos no final da descrição do post (talvez o whitespace, resolva)
 - Arrumar fonte dos elementos
 - Continuar o projeto

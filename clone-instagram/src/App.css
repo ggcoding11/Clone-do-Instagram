@@ -179,8 +179,9 @@
 }
 
 .description-text {
-  max-height: 2lh;
-  overflow: hidden;
+  /* display: inline-block; */
+  /* max-height: 2lh; */
+  /* overflow: hidden; */
 }
 
 .expand-text-checkbox {
@@ -203,7 +204,6 @@
   bottom: 0;
   font-size: 1.6rem;
   padding: 0.4rem;
-
   border-top: 1px solid rgb(173, 173, 173);
 }
 
