@@ -179,21 +179,8 @@
 }
 
 .description-text {
-  /* display: inline-block; */
-  /* max-height: 2lh; */
-  /* overflow: hidden; */
-}
-
-.expand-text-checkbox {
-  display: none;
-}
-
-.expand-text:has(.expand-text-checkbox:checked) ~ .description-text {
-  max-height: none;
-}
-
-.expand-text.expand-text:has(.expand-text-checkbox:checked) {
-  display: none;
+  max-height: 2lh;
+  overflow: hidden;
 }
 
 .footer-row {

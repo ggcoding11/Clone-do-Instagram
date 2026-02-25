@@ -391,11 +391,6 @@ const App = () => {
                       provas e decidir se apresenta denúncia formal à Justiça.
                       Até o momento, a defesa dos envolvidos não se manifestou.
                     </span>
-
-                    <label className="expand-text text-secondary">
-                      <input type="checkbox" className="expand-text-checkbox" />
-                      mais
-                    </label>
                   </div>
 
                   <div className="text-secondary">há 15 minutos</div>
