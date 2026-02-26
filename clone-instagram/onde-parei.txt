@@ -1,1 +1,2 @@
-- Continuar o projeto
+- Parei na parte de arrumar o footer, e torna-lo uma sidebar em determinado tamanho
+- DICA: Use o media queries, para usar fixed em um caso, e outro que preferir em outro
