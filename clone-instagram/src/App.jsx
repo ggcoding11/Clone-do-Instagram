@@ -6,6 +6,7 @@ import iconStory from "/photos/icon-story.jpg";
 import userIconPost1 from "/photos/user-icon-post-1.jpg";
 import post1 from "/photos/post-1.jpg";
 import "./App.css";
+import Description from "./components/Description";
 
 const App = () => {
   return (
@@ -374,27 +375,13 @@ const App = () => {
           <div className="post-description">
             <div className="row">
               <div className="col-12">
-                <div>
-                  <div className="description-text">
-                    <span className="fw-semibold me-1">amorabernesse</span>
-                    <span>
-                      Alvin, Simon e Teodoro foram indiciados pela polícia pelos
-                      crimes de estelionato e lavagem de dinheiro, segundo
-                      informações divulgadas na manhã deste domingo (15). De
-                      acordo com as investigações, os três irmãos são suspeitos
-                      de envolvimento em um esquema financeiro que teria
-                      movimentado grandes quantias por meio de transações
-                      consideradas fraudulentas. As autoridades afirmam que o
-                      inquérito reuniu elementos suficientes para apontar a
-                      participação direta do trio nos crimes. O caso agora será
-                      encaminhado ao Ministério Público, que deverá analisar as
-                      provas e decidir se apresenta denúncia formal à Justiça.
-                      Até o momento, a defesa dos envolvidos não se manifestou.
-                    </span>
-                  </div>
+                <Description
+                  texto={
+                    "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
+                  }
+                ></Description>
 
-                  <div className="text-secondary">há 15 minutos</div>
-                </div>
+                <div className="text-secondary">há 15 minutos</div>
               </div>
             </div>
           </div>
@@ -453,29 +440,13 @@ const App = () => {
           <div className="post-description">
             <div className="row">
               <div className="col-12">
-                <div className="d-flex flex-column-reverse">
-                  <div className="text-secondary">há 15 minutos</div>
-                  <label className="expand-text text-secondary">
-                    <input type="checkbox" className="expand-text-checkbox" />
-                    mais
-                  </label>
+                <Description
+                  texto={
+                    "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
+                  }
+                ></Description>
 
-                  <div className="description-text">
-                    <span className="fw-semibold me-1">amorabernesse</span>
-                    Alvin, Simon e Teodoro foram indiciados pela polícia pelos
-                    crimes de estelionato e lavagem de dinheiro, segundo
-                    informações divulgadas na manhã deste domingo (15). De
-                    acordo com as investigações, os três irmãos são suspeitos de
-                    envolvimento em um esquema financeiro que teria movimentado
-                    grandes quantias por meio de transações consideradas
-                    fraudulentas. As autoridades afirmam que o inquérito reuniu
-                    elementos suficientes para apontar a participação direta do
-                    trio nos crimes. O caso agora será encaminhado ao Ministério
-                    Público, que deverá analisar as provas e decidir se
-                    apresenta denúncia formal à Justiça. Até o momento, a defesa
-                    dos envolvidos não se manifestou.
-                  </div>
-                </div>
+                <div className="text-secondary">há 15 minutos</div>
               </div>
             </div>
           </div>
