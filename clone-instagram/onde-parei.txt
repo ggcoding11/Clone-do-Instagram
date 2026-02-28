@@ -1,2 +1,2 @@
-- Parei na parte de arrumar o footer, e torna-lo uma sidebar em determinado tamanho
-- DICA: Use o media queries, para usar fixed em um caso, e outro que preferir em outro
+- Preciso ajeitar para deixar o footer em baixo em CELULARES
+- Refatorar o restante do código pra ver se está tudo certinho
