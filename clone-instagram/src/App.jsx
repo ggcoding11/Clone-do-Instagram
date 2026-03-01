@@ -15,23 +15,32 @@ const App = () => {
         <div className="col-12 col-md-1 border">
           <footer className="footer-row">
             <nav>
-              <i className="d-none d-md-inline bi bi-instagram mb-4"></i>
-              <i className="bi bi-house-door"></i>
-              <i className="bi bi-search"></i>
-              <i className="bi bi-play-btn"></i>
-              <i className="bi bi-send"></i>
-              <div className="footer-user-circle">
-                <img
-                  src={userIconStory}
-                  className="footer-user-icon"
-                  alt="Foto do Usuário"
-                />
+              <div className="d-none d-md-block mb-5">
+                <i className="bi bi-instagram"></i>
+              </div>
+
+              <div className="d-flex flex-row flex-md-column justify-content-evenly align-items-center gap-4 w-100">
+                <i className="bi bi-house-door"></i>
+                <i className="bi bi-search"></i>
+                <i className="bi bi-play-btn"></i>
+                <i className="bi bi-send"></i>
+                <i className="d-none d-md-inline bi bi-suit-heart"></i>
+
+                <div className="footer-user-circle">
+                  <img
+                    src={userIconStory}
+                    className="footer-user-icon"
+                    alt="Foto do Usuário"
+                  />
+                </div>
+
+                <i class="d-none d-md-inline bi bi-list"></i>
               </div>
             </nav>
           </footer>
         </div>
         <div className="col-12 col-md-11">
-          <header>
+          <header className="d-block d-md-none">
             <nav className="navbar">
               <div className="container-fluid">
                 <a className="navbar-brand" href="https://www.instagram.com/">
@@ -46,7 +55,7 @@ const App = () => {
             </nav>
           </header>
 
-          <section>
+          <section className="mt-2">
             <div className="story-row">
               <div className="story-container">
                 <div className="story-circle">

@@ -1,2 +1,1 @@
-- Preciso ajeitar para deixar o footer em baixo em CELULARES
 - Refatorar o restante do código pra ver se está tudo certinho
