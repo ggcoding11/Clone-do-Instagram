@@ -20,11 +20,24 @@ const App = () => {
               </div>
 
               <div className="d-flex flex-row flex-md-column justify-content-evenly align-items-center gap-4 w-100">
-                <i className="bi bi-house-door"></i>
-                <i className="bi bi-search"></i>
-                <i className="bi bi-play-btn"></i>
-                <i className="bi bi-send"></i>
-                <i className="d-none d-md-inline bi bi-suit-heart"></i>
+                <div>
+                  <i className="bi bi-house-door"></i>
+                </div>
+                <div>
+                  <i className="bi bi-search"></i>
+                </div>
+
+                <div>
+                  <i className="bi bi-play-btn"></i>
+                </div>
+
+                <div>
+                  <i className="bi bi-send"></i>
+                </div>
+
+                <div className="d-none d-md-block">
+                  <i className="bi bi-suit-heart"></i>
+                </div>
 
                 <div className="footer-user-circle">
                   <img
@@ -34,7 +47,9 @@ const App = () => {
                   />
                 </div>
 
-                <i class="d-none d-md-inline bi bi-list"></i>
+                <div className="d-none d-md-block">
+                  <i className="bi bi-list"></i>
+                </div>
               </div>
             </nav>
           </footer>

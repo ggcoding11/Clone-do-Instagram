@@ -1,1 +1,1 @@
-- Refatorar o restante do código pra ver se está tudo certinho
+- Finalizar a sidebar em telas grandes
