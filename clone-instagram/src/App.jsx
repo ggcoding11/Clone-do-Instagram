@@ -12,49 +12,64 @@ const App = () => {
   return (
     <div className="main container-fluid">
       <div className="row">
-        <div className="col-12 col-md-1 border">
-          <footer className="footer-row">
+        <div className="col-12 col-md-1 col-xl-2 border">
+          <footer className="footer-sidebar-row">
             <nav>
-              <div className="d-none d-md-block mb-5">
-                <i className="bi bi-instagram"></i>
+              <div className="d-none d-md-block w-100 mb-5">
+                <i className="d-inline d-xl-none bi bi-instagram"></i>
+                <img
+                  src={logo}
+                  alt="Logo Instagram"
+                  className="d-none d-xl-inline sidebar-logo-instagram"
+                />
               </div>
 
-              <div className="d-flex flex-row flex-md-column justify-content-evenly align-items-center gap-4 w-100">
-                <div>
+              <div className="d-flex flex-md-column justify-content-evenly align-items-center align-items-md-start gap-4 w-100">
+                <div className="d-flex align-items-center gap-3">
                   <i className="bi bi-house-door"></i>
+                  <span className="d-none d-xl-inline fs-5">Home</span>
                 </div>
-                <div>
+                <div className="d-flex align-items-center gap-3">
                   <i className="bi bi-search"></i>
+                  <span className="d-none d-xl-inline fs-5">Explore</span>
                 </div>
 
-                <div>
+                <div className="d-flex align-items-center gap-3">
                   <i className="bi bi-play-btn"></i>
+                  <span className="d-none d-xl-inline fs-5">Reels</span>
                 </div>
 
-                <div>
+                <div className="d-flex align-items-center gap-3">
                   <i className="bi bi-send"></i>
+                  <span className="d-none d-xl-inline fs-5">Messages</span>
                 </div>
 
-                <div className="d-none d-md-block">
+                <div className="d-none d-md-block d-xl-flex align-items-xl-center gap-3">
                   <i className="bi bi-suit-heart"></i>
+                  <span className="d-none d-xl-inline fs-5">Notifications</span>
                 </div>
 
-                <div className="footer-user-circle">
-                  <img
-                    src={userIconStory}
-                    className="footer-user-icon"
-                    alt="Foto do Usuário"
-                  />
+                <div className="d-flex align-items-center gap-3">
+                  <div className="footer-sidebar-user-circle">
+                    <img
+                      src={userIconStory}
+                      className="footer-sidebar-user-icon"
+                      alt="Foto do Usuário"
+                    />
+                  </div>
+
+                  <span className="d-none d-xl-inline fs-5">Profile</span>
                 </div>
 
-                <div className="d-none d-md-block">
+                <div className="d-none d-md-block d-xl-flex align-items-xl-center gap-3">
                   <i className="bi bi-list"></i>
+                  <span className="d-none d-xl-inline fs-5">Menu</span>
                 </div>
               </div>
             </nav>
           </footer>
         </div>
-        <div className="col-12 col-md-11">
+        <div className="col-12 col-md-11 col-xl-10">
           <header className="d-block d-md-none">
             <nav className="navbar">
               <div className="container-fluid">

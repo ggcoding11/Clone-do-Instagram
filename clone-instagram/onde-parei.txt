@@ -1,1 +1,2 @@
-- Finalizar a sidebar em telas grandes
+- Arrumar a rolagem na linha de stories em telas grandes
+- Refatorar o código de estilos se necessário
