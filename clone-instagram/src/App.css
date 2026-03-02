@@ -179,7 +179,7 @@
 }
 
 @media (max-width: 767px) {
-  .footer-sidebar-row {
+  .footer-sidebar {
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -188,31 +188,31 @@
     border: 1px solid rgb(206, 206, 206);
   }
 
-  .footer-sidebar-row nav {
+  .footer-sidebar nav {
     flex-direction: row;
   }
 }
 
 @media (min-width: 768px) {
-  .footer-sidebar-row {
+  .footer-sidebar {
     position: sticky;
     top: 0;
     left: 0;
   }
 
-  .footer-sidebar-row nav {
+  .footer-sidebar nav {
     flex-direction: column;
     margin-top: 1.6rem;
   }
 }
 
-.footer-sidebar-row {
+.footer-sidebar {
   background-color: white;
   font-size: 1.6rem;
   padding: 0.4rem;
 }
 
-.footer-sidebar-row nav {
+.footer-sidebar nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;

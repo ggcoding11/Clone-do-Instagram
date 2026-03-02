@@ -1,2 +1,2 @@
-- Arrumar a rolagem na linha de stories em telas grandes
-- Refatorar o código de estilos se necessário
+- Continuar a componentização
+- Refatorar o que precisar
