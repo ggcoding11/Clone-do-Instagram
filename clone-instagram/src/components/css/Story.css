@@ -1,0 +1,87 @@
+.story-section {
+  margin-top: 0.8rem;
+}
+
+.story-row {
+  display: flex;
+  gap: 1.2rem;
+  overflow: auto;
+  scrollbar-width: none;
+  margin-bottom: 0.4rem;
+}
+
+.story-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.story-circle {
+  position: relative;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.story-circle.other-user {
+  background: #b45b3a;
+  background: linear-gradient(
+    90deg,
+    rgba(180, 91, 58, 1) 0%,
+    rgba(253, 145, 29, 1) 50%,
+    rgba(231, 69, 252, 1) 100%
+  );
+}
+
+.story-circle-whitespace {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.story-icon {
+  position: absolute;
+  width: 92%;
+  height: 92%;
+  object-fit: contain;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.story-add-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  top: 52%;
+  left: 73%;
+}
+
+.story-add-icon * {
+  color: white;
+}
+
+.story-username {
+  font-size: 0.7rem;
+  font-weight: 630;
+  text-align: center;
+  color: gray;
+}
+
+.story-username.other-user {
+  color: black;
+}

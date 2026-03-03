@@ -1,2 +1,1 @@
-- Continuar a componentização
-- Refatorar o que precisar
+- Refatorar o que precisar (Em progresso)

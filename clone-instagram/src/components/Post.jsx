@@ -1,7 +1,17 @@
 import React from "react";
 import Description from "./Description";
-import userIconPost1 from "/photos/user-icon-post-1.jpg";
-import post1 from "/photos/post-1.jpg";
+import UserIconPost1 from "/photos/user-icon-post-1.jpg";
+import PostImage1 from "/photos/post-image-1.jpg";
+
+import {
+  BsThreeDots,
+  BsSuitHeart,
+  BsChat,
+  BsSend,
+  BsBookmark,
+} from "react-icons/bs";
+
+import "./css/Post.css";
 
 const Post = () => {
   return (
@@ -14,7 +24,7 @@ const Post = () => {
                 <div className="post-circle-whitespace">
                   <img
                     className="post-user-icon"
-                    src={userIconPost1}
+                    src={UserIconPost1}
                     alt="Foto do Usuário"
                   />
                 </div>
@@ -26,7 +36,7 @@ const Post = () => {
           <div className="col-6">
             <div className="d-flex justify-content-end align-items-center w-100 h-100 gap-2">
               <span className="post-user-follow">Follow</span>
-              <i className="bi bi-three-dots"></i>
+              <BsThreeDots />
             </div>
           </div>
         </div>
@@ -35,22 +45,22 @@ const Post = () => {
       <div className="post-image">
         <div className="row">
           <div className="col-12">
-            <img className="img-fluid" src={post1} alt="Imagem do Post" />
+            <img className="img-fluid" src={PostImage1} alt="Imagem do Post" />
           </div>
         </div>
       </div>
       <div className="post-action-row">
-        <div className="row">
+        <div className="row p-1">
           <div className="col-6">
-            <div className="d-flex gap-2">
-              <i className="bi bi-suit-heart"></i>
-              <i className="bi bi-chat"></i>
-              <i className="bi bi-send"></i>
+            <div className="d-flex align-items-center gap-3">
+              <BsSuitHeart className="fs-3"/>
+              <BsChat className="fs-3"/>
+              <BsSend className="fs-3"/>
             </div>
           </div>
           <div className="col-6">
             <div className="d-flex justify-content-end">
-              <i className="bi bi-bookmark"></i>
+              <BsBookmark className="fs-3"/>
             </div>
           </div>
         </div>
