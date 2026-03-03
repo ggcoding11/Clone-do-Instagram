@@ -24,6 +24,7 @@ const Description = ({ texto, limitePalavras = 20 }) => {
 
               <span
                 className="text-secondary"
+                role="button"
                 onClick={() => setEstaExpandido(true)}
               >
                 mais

@@ -1,5 +1,8 @@
 import React from "react";
-import "./css/Story.css"
+
+import { BsPlusLg } from "react-icons/bs";
+
+import "../css/Story.css";
 
 const Story = ({ photo, username = "Seu story", otherUser = false }) => {
   return (
@@ -18,7 +21,7 @@ const Story = ({ photo, username = "Seu story", otherUser = false }) => {
 
       {!otherUser && (
         <div className="story-add-icon">
-          <i className="bi bi-plus-lg"></i>
+          <BsPlusLg />
         </div>
       )}
     </div>

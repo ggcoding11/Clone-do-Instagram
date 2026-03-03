@@ -30,6 +30,18 @@
   font-size: 1.5rem;
 }
 
+.story-section {
+  margin-top: 0.8rem;
+}
+
+.story-row {
+  display: flex;
+  gap: 1.2rem;
+  overflow: auto;
+  scrollbar-width: none;
+  margin-bottom: 0.4rem;
+}
+
 @media (max-width: 767px) {
   .dashboard {
     position: fixed;

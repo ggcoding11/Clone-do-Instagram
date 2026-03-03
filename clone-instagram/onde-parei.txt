@@ -1,1 +1,1 @@
-- Refatorar o que precisar (Em progresso)
+- Implementar a visualização de stories
