@@ -1,1 +1,2 @@
-- Implementar a visualização de stories
+- Implementar a visualização de stories (use a biblioteca react-insta-stories)
+- Implemente a visualização de vídeos no feed depois
