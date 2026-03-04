@@ -54,26 +54,26 @@ const App = () => {
               <div className="d-flex flex-md-column justify-content-evenly align-items-center align-items-xl-start gap-4 w-100 p-1">
                 <div className="d-flex align-items-center gap-3">
                   <BsHouseDoor />
-                  <span className="d-none d-xl-inline fs-5">Home</span>
+                  <span className="d-none d-xl-inline fs-6">Página Inicial</span>
                 </div>
                 <div className="d-flex align-items-center gap-3">
                   <BsSearch />
-                  <span className="d-none d-xl-inline fs-5">Explore</span>
+                  <span className="d-none d-xl-inline fs-6">Explorar</span>
                 </div>
 
                 <div className="d-flex align-items-center gap-3">
                   <BsPlayBtn />
-                  <span className="d-none d-xl-inline fs-5">Reels</span>
+                  <span className="fw-normal d-none d-xl-inline fs-6">Reels</span>
                 </div>
 
                 <div className="d-flex align-items-center gap-3">
                   <BsSend />
-                  <span className="d-none d-xl-inline fs-5">Messages</span>
+                  <span className="d-none d-xl-inline fs-6">Mensagens</span>
                 </div>
 
                 <div className="d-none d-md-flex align-items-xl-center gap-3">
                   <BsSuitHeart />
-                  <span className="d-none d-xl-inline fs-5">Notifications</span>
+                  <span className="d-none d-xl-inline fs-6">Notificações</span>
                 </div>
 
                 <div className="d-flex align-items-center gap-3">
@@ -85,12 +85,12 @@ const App = () => {
                     />
                   </div>
 
-                  <span className="d-none d-xl-inline fs-5">Profile</span>
+                  <span className="d-none d-xl-inline fs-6">Perfil</span>
                 </div>
 
                 <div className="d-none d-md-flex align-items-xl-center gap-3">
                   <BsList />
-                  <span className="d-none d-xl-inline fs-5">Menu</span>
+                  <span className="d-none d-xl-inline fs-6">Menu</span>
                 </div>
               </div>
             </nav>
