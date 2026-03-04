@@ -1,10 +1,22 @@
 import React from "react";
 
 import InstagramLogo from "/photos/instagram-logo.png";
-import UserIconStory from "/photos/user-icon-story.jpg";
 import MyUserIcon from "/photos/my-user-icon.jpg";
-import UserIconPost1 from "/photos/user-icon-post-1.jpg";
 import PostImage1 from "/photos/post-image-1.jpg";
+import PostImage2 from "/photos/post-image-2.jpg";
+import PostImage3 from "/photos/post-image-3.jpg";
+import UserIcon1 from "/photos/user-icon-1.jpg";
+import UserIcon2 from "/photos/user-icon-2.jpg";
+import UserIcon3 from "/photos/user-icon-3.jpg";
+import UserIcon4 from "/photos/user-icon-4.jpg";
+import UserIcon5 from "/photos/user-icon-5.jpg";
+import UserIcon6 from "/photos/user-icon-6.jpg";
+import UserIcon7 from "/photos/user-icon-7.jpg";
+import UserIcon8 from "/photos/user-icon-8.jpg";
+import UserIcon9 from "/photos/user-icon-9.jpg";
+import UserIcon10 from "/photos/user-icon-10.jpg";
+import UserIcon11 from "/photos/user-icon-11.jpg";
+import UserIcon12 from "/photos/user-icon-12.jpg";
 
 import Story from "./components/Story";
 import Post from "./components/Post";
@@ -90,7 +102,7 @@ const App = () => {
               <div className="container-fluid">
                 <a className="navbar-brand" href="https://www.instagram.com/">
                   <img src={InstagramLogo} alt="Logo Instagram" />
-                  <BsChevronDown className="fs-6"/>
+                  <BsChevronDown className="fs-6" />
                 </a>
                 <div className="navbar-icons">
                   <BsPlusLg className="fs-2" />
@@ -104,102 +116,62 @@ const App = () => {
             <div className="story-row">
               <Story photo={MyUserIcon}></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon1}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon2}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon3}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon4}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon5}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon6}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon7}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon8}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon9}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon10}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
+                photo={UserIcon11}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
               <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIconStory}
+                photo={UserIcon12}
                 username={"harumi_2"}
                 otherUser={true}
               ></Story>
@@ -208,7 +180,7 @@ const App = () => {
 
           <section className="post-section">
             <Post
-              userIcon={UserIconPost1}
+              userIcon={UserIcon2}
               username={"amorabernesse"}
               postImage={PostImage1}
               descriptionText={
@@ -217,9 +189,9 @@ const App = () => {
             />
 
             <Post
-              userIcon={UserIconPost1}
+              userIcon={UserIcon5}
               username={"amorabernesse"}
-              postImage={PostImage1}
+              postImage={PostImage2}
               descriptionText={
                 "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
               }
@@ -227,22 +199,13 @@ const App = () => {
             />
 
             <Post
-              userIcon={UserIconPost1}
+              userIcon={UserIcon8}
               username={"amorabernesse"}
-              postImage={PostImage1}
+              postImage={PostImage3}
               descriptionText={
                 "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
               }
               withStory={true}
-            />
-
-            <Post
-              userIcon={UserIconPost1}
-              username={"amorabernesse"}
-              postImage={PostImage1}
-              descriptionText={
-                "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
-              }
             />
           </section>
         </div>
