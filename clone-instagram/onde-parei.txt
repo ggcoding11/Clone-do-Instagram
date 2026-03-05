@@ -1,2 +1,3 @@
-- Implementar a visualização de stories (use a biblioteca react-insta-stories)
-- Implemente a visualização de vídeos no feed depois
+- Fazer o story responsivo (está no teste-codigo)
+- Fazer passar de um story pro outro
+- Implementar no código
