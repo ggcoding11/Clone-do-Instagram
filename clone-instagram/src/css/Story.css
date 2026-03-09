@@ -5,9 +5,6 @@
   overflow: hidden;
   width: 5.6rem;
   height: 5.6rem;
-}
-
-.story-circle.other-user {
   background: #b45b3a;
   background: linear-gradient(
     90deg,
@@ -15,6 +12,10 @@
     rgba(253, 145, 29, 1) 50%,
     rgba(231, 69, 252, 1) 100%
   );
+}
+
+.story-circle.my-user {
+  background: none;
 }
 
 .story-circle-whitespace {

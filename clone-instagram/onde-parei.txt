@@ -1,3 +1,2 @@
-- Fazer o story responsivo (está no teste-codigo)
-- Fazer passar de um story pro outro
-- Implementar no código
+- Fazer que cada story do Feed vá para o seu StoryViewer respectivo
+- Evite fazer longos trechos repetidos de código nos testes, pegue só pequenas partes

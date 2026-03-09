@@ -33,9 +33,107 @@ import {
   BsPlusLg,
 } from "react-icons/bs";
 
-import "./css/App.css";
+import "../css/Feed.css";
 
-const Feed = () => {
+const storiesList = [
+  {
+    id: 0,
+    photo: MyUserIcon,
+    myUser: true,
+  },
+
+  {
+    id: 1,
+    photo: UserIcon1,
+    username: "harumi_2",
+  },
+  {
+    id: 2,
+    photo: UserIcon2,
+    username: "harumi_2",
+  },
+  {
+    id: 3,
+    photo: UserIcon3,
+    username: "harumi_2",
+  },
+  {
+    id: 4,
+    photo: UserIcon4,
+    username: "harumi_2",
+  },
+  {
+    id: 5,
+    photo: UserIcon5,
+    username: "harumi_2",
+  },
+  {
+    id: 6,
+    photo: UserIcon6,
+    username: "harumi_2",
+  },
+  {
+    id: 7,
+    photo: UserIcon7,
+    username: "harumi_2",
+  },
+  {
+    id: 8,
+    photo: UserIcon8,
+    username: "harumi_2",
+  },
+  {
+    id: 9,
+    photo: UserIcon9,
+    username: "harumi_2",
+  },
+  {
+    id: 10,
+    photo: UserIcon10,
+    username: "harumi_2",
+  },
+  {
+    id: 11,
+    photo: UserIcon11,
+    username: "harumi_2",
+  },
+  {
+    id: 12,
+    photo: UserIcon12,
+    username: "harumi_2",
+  },
+];
+
+const postsList = [
+  {
+    id: 0,
+    userIcon: UserIcon2,
+    username: "amorabernesse",
+    postImage: PostImage1,
+    descriptionText:
+      "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou.",
+  },
+  {
+    id: 1,
+    userIcon: UserIcon5,
+    username: "amorabernesse",
+    postImage: PostImage2,
+    descriptionText:
+      "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou.",
+    withStory: true,
+  },
+  {
+    id: 2,
+    userIcon: UserIcon8,
+    username: "amorabernesse",
+    postImage: PostImage3,
+    descriptionText:
+      "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou.",
+    withStory: true,
+  },
+];
+
+const Feed = ({ setEnterStoryViewer }) => {
   return (
     <div className="main container-fluid">
       <div className="row">
@@ -54,7 +152,9 @@ const Feed = () => {
               <div className="d-flex flex-md-column justify-content-evenly align-items-center align-items-xl-start gap-4 w-100 p-1">
                 <div className="d-flex align-items-center gap-3">
                   <BsHouseDoor />
-                  <span className="d-none d-xl-inline fs-6">Página Inicial</span>
+                  <span className="d-none d-xl-inline fs-6">
+                    Página Inicial
+                  </span>
                 </div>
                 <div className="d-flex align-items-center gap-3">
                   <BsSearch />
@@ -63,7 +163,9 @@ const Feed = () => {
 
                 <div className="d-flex align-items-center gap-3">
                   <BsPlayBtn />
-                  <span className="fw-normal d-none d-xl-inline fs-6">Reels</span>
+                  <span className="fw-normal d-none d-xl-inline fs-6">
+                    Reels
+                  </span>
                 </div>
 
                 <div className="d-flex align-items-center gap-3">
@@ -114,99 +216,29 @@ const Feed = () => {
 
           <section className="story-section">
             <div className="story-row">
-              <Story photo={MyUserIcon}></Story>
-              <Story
-                photo={UserIcon1}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon2}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon3}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon4}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon5}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon6}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon7}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon8}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon9}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon10}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon11}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
-              <Story
-                photo={UserIcon12}
-                username={"harumi_2"}
-                otherUser={true}
-              ></Story>
+              {storiesList.map((story) => (
+                <Story
+                  key={story.id}
+                  photo={story.photo}
+                  username={story.username}
+                  myUser={story.myUser}
+                  setEnterStoryViewer={setEnterStoryViewer}
+                />
+              ))}
             </div>
           </section>
 
           <section className="post-section">
-            <Post
-              userIcon={UserIcon2}
-              username={"amorabernesse"}
-              postImage={PostImage1}
-              descriptionText={
-                "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
-              }
-            />
-
-            <Post
-              userIcon={UserIcon5}
-              username={"amorabernesse"}
-              postImage={PostImage2}
-              descriptionText={
-                "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
-              }
-              withStory={true}
-            />
-
-            <Post
-              userIcon={UserIcon8}
-              username={"amorabernesse"}
-              postImage={PostImage3}
-              descriptionText={
-                "Alvin, Simon e Teodoro foram indiciados pela polícia pelos crimes de estelionato e lavagem de dinheiro, segundo informações divulgadas na manhã deste domingo (15). De acordo com as investigações, os três irmãos são suspeitos de envolvimento em um esquema financeiro que teria movimentado grandes quantias por meio de transações consideradas fraudulentas. As autoridades afirmam que o inquérito reuniu elementos suficientes para apontar a participação direta do trio nos crimes. O caso agora será encaminhado ao Ministério Público, que deverá analisar as provas e decidir se apresenta denúncia formal à Justiça. Até o momento, a defesa dos envolvidos não se manifestou."
-              }
-              withStory={true}
-            />
+            {postsList.map((post) => (
+              <Post
+                key={post.id}
+                userIcon={post.userIcon}
+                username={post.username}
+                postImage={post.postImage}
+                descriptionText={post.descriptionText}
+                withStory={post.withStory}
+              />
+            ))}
           </section>
         </div>
       </div>

@@ -4,26 +4,35 @@ import { BsPlusLg } from "react-icons/bs";
 
 import "../css/Story.css";
 
-const Story = ({ photo, username = "Seu story", otherUser = false }) => {
+const Story = ({
+  photo,
+  username = "Seu story",
+  myUser = false,
+  setEnterStoryViewer,
+}) => {
   return (
     <div className="story-container">
       <div
         role={"button"}
-        onClick={() => alert("Olá, mundo")}
-        className={otherUser ? "story-circle other-user" : "story-circle"}
+        onClick={() => {
+          if (myUser === false) {
+            setEnterStoryViewer(true);
+          }
+        }}
+        className={myUser ? "story-circle my-user" : "story-circle"}
       >
-        {otherUser ? (
+        {myUser ? (
+          <img className="story-icon" src={photo} alt="Foto do Story" />
+        ) : (
           <div className="story-circle-whitespace">
             <img className="story-icon" src={photo} alt="Foto do Story" />
           </div>
-        ) : (
-          <img className="story-icon" src={photo} alt="Foto do Story" />
         )}
       </div>
 
       <span className="story-username">{username}</span>
 
-      {!otherUser && (
+      {myUser && (
         <div className="story-add-icon">
           <BsPlusLg />
         </div>

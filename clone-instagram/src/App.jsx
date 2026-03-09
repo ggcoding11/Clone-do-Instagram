@@ -1,9 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
+import Feed from "./components/Feed";
+import StoryViewer from "./components/StoryViewer";
+
+import "./css/App.css";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  const [enterStoryViewer, setEnterStoryViewer] = useState(false);
 
-export default App
+  return (
+    <div>
+      {enterStoryViewer ? (
+        <StoryViewer />
+      ) : (
+        <Feed setEnterStoryViewer={setEnterStoryViewer} />
+      )}
+    </div>
+  );
+};
+
+export default App;
