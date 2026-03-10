@@ -8,17 +8,13 @@ const Story = ({
   photo,
   username = "Seu story",
   myUser = false,
-  setEnterStoryViewer,
+  onClickStory,
 }) => {
   return (
     <div className="story-container">
       <div
         role={"button"}
-        onClick={() => {
-          if (myUser === false) {
-            setEnterStoryViewer(true);
-          }
-        }}
+        onClick={onClickStory}
         className={myUser ? "story-circle my-user" : "story-circle"}
       >
         {myUser ? (
