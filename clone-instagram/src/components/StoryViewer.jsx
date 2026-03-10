@@ -16,7 +16,7 @@ const StoryViewer = ({ storiesList, currentStory, setCurrentStory }) => {
                 if (currentStory == storiesList.length - 1) {
                   setCurrentStory(0);
                 } else {
-                  setCurrentStory((actual) => actual + 1);
+                  setCurrentStory((currentId) => currentId + 1);
                 }
               }}
               width={320}
