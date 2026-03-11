@@ -61,4 +61,155 @@ export const storiesList = [
       },
     ],
   },
+
+  {
+    id: 2,
+    photo: UserIcon3,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon3,
+        },
+      },
+    ],
+  },
+  {
+    id: 3,
+    photo: UserIcon4,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon4,
+        },
+      },
+    ],
+  },
+  {
+    id: 4,
+    photo: UserIcon5,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon5,
+        },
+      },
+    ],
+  },
+  {
+    id: 5,
+    photo: UserIcon6,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon6,
+        },
+      },
+    ],
+  },
+  {
+    id: 6,
+    photo: UserIcon7,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon7,
+        },
+      },
+    ],
+  },
+  {
+    id: 7,
+    photo: UserIcon8,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon8,
+        },
+      },
+    ],
+  },
+  {
+    id: 8,
+    photo: UserIcon9,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon9,
+        },
+      },
+    ],
+  },
+  {
+    id: 9,
+    photo: UserIcon10,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon10,
+        },
+      },
+    ],
+  },
+  {
+    id: 10,
+    photo: UserIcon11,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon11,
+        },
+      },
+    ],
+  },
+  {
+    id: 11,
+    photo: UserIcon12,
+    username: "harumi_2",
+    storyInfo: [
+      {
+        url: "https://images.pexels.com/photos/15858595/pexels-photo-15858595.jpeg",
+        header: {
+          heading: "harumi_2",
+          subheading: "há 15 minutos",
+          profileImage: UserIcon12,
+        },
+      },
+    ],
+  }
 ];

@@ -15,7 +15,7 @@ const App = () => {
         <StoryViewer
           storiesList={storiesList}
           currentStory={currentStory}
-          setCurrentStory={setCurrentStory}
+          setEnterStoryViewer={setEnterStoryViewer}
         />
       ) : (
         <Feed
