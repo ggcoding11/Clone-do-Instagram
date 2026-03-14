@@ -1,2 +1,3 @@
-- Evite fazer longos trechos repetidos de código nos testes, pegue só pequenas partes
-
+- Tente implementar a API para pegar os posts
+- Veja se ele puxa as imagens
+- Continue o projeto
