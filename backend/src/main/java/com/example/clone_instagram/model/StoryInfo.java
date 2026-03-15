@@ -6,22 +6,21 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Set;
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "tb_story")
-public class Story {
+@Table(name="tb_story_info")
+public class StoryInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String photo;
-    private String username;
+    private String urlStoryContent;
+    private String subheading;
 
-    @OneToMany(mappedBy = "story")
-    private Set<StoryInfo> storiesInfo;
+    @ManyToOne
+    @JoinColumn(name = "id_story")
+    private Story story;
 }

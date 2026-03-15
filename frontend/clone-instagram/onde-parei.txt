@@ -1,5 +1,5 @@
-- Ver como adicionar a lógica de array de stories no Backend (Provavelmente vou ter que criar 
-mais de uma tabela)
+- Resolver o problema de puxar os stories no front
+- Ver se o relacionamento das tabelas está corretamente implementado
 - Fazer a mesma lógica pros stories
 - Testar pra ver se tudo funcionou
 - Tentar fazer um loading pra aplicação

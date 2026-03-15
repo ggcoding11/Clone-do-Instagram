@@ -20,13 +20,19 @@ import {
 } from "react-icons/bs";
 
 import "../css/Feed.css";
+import { getAllStories } from "../services/StoryService";
 
 const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
   const [posts, setPosts] = useState(null);
+  const [stories, setStories] = useState(null);
   useEffect(() => {
     getAllPosts().then((response) => {
       console.log(response.data);
       setPosts(response.data);
+    });
+
+    getAllStories().then((response) => {
+      console.log(response.data);
     });
   }, []);
 
