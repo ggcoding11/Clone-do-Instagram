@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import InstagramLogo from "/photos/instagram-logo.png";
 import MyUserIcon from "/photos/my-user-icon.jpg";
 import Story from "./Story";
 import Post from "./Post";
 
-import { postsList } from "../../data/PostsList";
+import { getAllPosts } from "../services/PostService";
 
 import {
   BsInstagram,
@@ -22,6 +22,14 @@ import {
 import "../css/Feed.css";
 
 const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
+  const [posts, setPosts] = useState(null);
+  useEffect(() => {
+    getAllPosts().then((response) => {
+      console.log(response.data);
+      setPosts(response.data);
+    });
+  }, []);
+
   return (
     <div className="main container-fluid">
       <div className="row">
@@ -120,16 +128,17 @@ const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
           </section>
 
           <section className="post-section">
-            {postsList.map((post) => (
-              <Post
-                key={post.id}
-                userIcon={post.userIcon}
-                username={post.username}
-                postImage={post.postImage}
-                descriptionText={post.descriptionText}
-                withStory={post.withStory}
-              />
-            ))}
+            {posts &&
+              posts.map((post) => (
+                <Post
+                  key={post.id}
+                  userIcon={post.userIcon}
+                  username={post.username}
+                  postImage={post.image}
+                  descriptionText={post.descriptionText}
+                  withStory={post.withStory}
+                />
+              ))}
           </section>
         </div>
       </div>

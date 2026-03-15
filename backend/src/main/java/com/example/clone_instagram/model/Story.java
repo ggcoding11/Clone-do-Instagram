@@ -11,16 +11,14 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="tb_post")
-public class Post {
+@Table(name = "tb_story")
+public class Story {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userIcon;
-    private String username;
-    private String image;
 
-    @Column(length = 20000)
-    private String descriptionText;
-    private Boolean withStory;
+    private String photo;
+    private String username;
+
+
 }

@@ -32,14 +32,14 @@ const Post = ({
                   <div className="post-circle-whitespace">
                     <img
                       className="post-user-icon"
-                      src={userIcon}
+                      src={"/photos/" + userIcon}
                       alt="Foto do Usuário"
                     />
                   </div>
                 ) : (
                   <img
                     className="post-user-icon"
-                    src={userIcon}
+                    src={"/photos/" + userIcon}
                     alt="Foto do Usuário"
                   />
                 )}
@@ -60,7 +60,11 @@ const Post = ({
       <div className="post-image">
         <div className="row">
           <div className="col-12">
-            <img className="img-fluid" src={postImage} alt="Imagem do Post" />
+            <img
+              className="img-fluid"
+              src={"/photos/" + postImage}
+              alt="Imagem do Post"
+            />
           </div>
         </div>
       </div>

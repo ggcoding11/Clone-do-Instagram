@@ -1,3 +1,5 @@
-- Tente implementar a API para pegar os posts
-- Veja se ele puxa as imagens
-- Continue o projeto
+- Ver como adicionar a lógica de array de stories no Backend (Provavelmente vou ter que criar 
+mais de uma tabela)
+- Fazer a mesma lógica pros stories
+- Testar pra ver se tudo funcionou
+- Tentar fazer um loading pra aplicação
