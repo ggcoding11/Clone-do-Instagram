@@ -19,8 +19,4 @@ public class StoryInfo {
 
     private String urlStoryContent;
     private String subheading;
-
-    @ManyToOne
-    @JoinColumn(name = "id_story")
-    private Story story;
 }

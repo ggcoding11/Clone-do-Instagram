@@ -22,7 +22,7 @@ import {
 import "../css/Feed.css";
 import { getAllStories } from "../services/StoryService";
 
-const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
+const Feed = ({ setEnterStoryViewer, setCurrentStory }) => {
   const [posts, setPosts] = useState(null);
   const [stories, setStories] = useState(null);
   useEffect(() => {
@@ -33,6 +33,7 @@ const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
 
     getAllStories().then((response) => {
       console.log(response.data);
+      setStories(response.data);
     });
   }, []);
 
@@ -118,18 +119,19 @@ const Feed = ({ setEnterStoryViewer, setCurrentStory, storiesList }) => {
 
           <section className="story-section">
             <div className="story-row">
-              <Story photo={MyUserIcon} myUser={true} />
-              {storiesList.map((story) => (
-                <Story
-                  key={story.id}
-                  photo={story.photo}
-                  username={story.username}
-                  onClickStory={() => {
-                    setCurrentStory(story.id);
-                    setEnterStoryViewer(true);
-                  }}
-                />
-              ))}
+              <Story photo={"my-user-icon.jpg"} myUser={true} />
+              {stories &&
+                stories.map((story) => (
+                  <Story
+                    key={story.id}
+                    photo={story.photo}
+                    username={story.username}
+                    onClickStory={() => {
+                      setCurrentStory(story.id);
+                      setEnterStoryViewer(true);
+                    }}
+                  />
+                ))}
             </div>
           </section>
 

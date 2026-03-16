@@ -1,5 +1,4 @@
-- Resolver o problema de puxar os stories no front
-- Ver se o relacionamento das tabelas está corretamente implementado
-- Fazer a mesma lógica pros stories
+- Resolver para que os dados do banco vão pro StoryViewer também
+- Entender por que o relacionamento não funciona no bidirecional
 - Testar pra ver se tudo funcionou
 - Tentar fazer um loading pra aplicação

@@ -18,10 +18,18 @@ const Story = ({
         className={myUser ? "story-circle my-user" : "story-circle"}
       >
         {myUser ? (
-          <img className="story-icon" src={photo} alt="Foto do Story" />
+          <img
+            className="story-icon"
+            src={"/photos/" + photo}
+            alt="Foto do Story"
+          />
         ) : (
           <div className="story-circle-whitespace">
-            <img className="story-icon" src={photo} alt="Foto do Story" />
+            <img
+              className="story-icon"
+              src={"/photos/" + photo}
+              alt="Foto do Story"
+            />
           </div>
         )}
       </div>

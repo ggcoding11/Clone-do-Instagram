@@ -19,7 +19,6 @@ const App = () => {
         />
       ) : (
         <Feed
-          storiesList={storiesList}
           setCurrentStory={setCurrentStory}
           setEnterStoryViewer={setEnterStoryViewer}
         />

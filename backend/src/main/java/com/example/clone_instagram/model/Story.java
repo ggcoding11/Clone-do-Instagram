@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.Set;
 
 @Getter
@@ -22,6 +23,6 @@ public class Story {
     private String photo;
     private String username;
 
-    @OneToMany(mappedBy = "story")
-    private Set<StoryInfo> storiesInfo;
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<StoryInfo> storiesInfo;
 }
