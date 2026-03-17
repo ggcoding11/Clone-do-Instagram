@@ -1,27 +1,22 @@
 package com.example.clone_instagram.service;
 
-import com.example.clone_instagram.model.Story;
 import com.example.clone_instagram.model.StoryInfo;
-import com.example.clone_instagram.repository.StoryRepository;
+import com.example.clone_instagram.repository.StoryInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class StoryService {
+public class StoryInfoService {
     @Autowired
-    private StoryRepository repository;
+    private StoryInfoRepository repository;
 
-    public List<Story> listarTodos() {
+    public List<StoryInfo> listarTodos() {
         return repository.findAll();
     }
 
-    public Story criar(Story s) {
+    public StoryInfo criar(StoryInfo s) {
         return repository.save(s);
-    }
-
-    public void deletar(Long id) {
-        repository.deleteById(id);
     }
 }

@@ -1,4 +1,1 @@
-- Resolver para que os dados do banco vão pro StoryViewer também
-- Entender por que o relacionamento não funciona no bidirecional
-- Testar pra ver se tudo funcionou
 - Tentar fazer um loading pra aplicação

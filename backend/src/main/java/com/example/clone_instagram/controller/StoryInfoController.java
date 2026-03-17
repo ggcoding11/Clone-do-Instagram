@@ -1,8 +1,7 @@
 package com.example.clone_instagram.controller;
 
-import com.example.clone_instagram.model.Story;
 import com.example.clone_instagram.model.StoryInfo;
-import com.example.clone_instagram.service.StoryService;
+import com.example.clone_instagram.service.StoryInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,23 +9,18 @@ import java.util.List;
 
 @CrossOrigin("*")
 @RestController
-@RequestMapping("/stories")
-public class StoryController {
+@RequestMapping("/storiesInfo")
+public class StoryInfoController {
     @Autowired
-    private StoryService service;
+    private StoryInfoService service;
 
     @GetMapping
-    public List<Story> listarTodos() {
+    public List<StoryInfo> listarTodos() {
         return service.listarTodos();
     }
 
     @PostMapping
-    public Story criar(@RequestBody Story s) {
+    public StoryInfo criar(@RequestBody StoryInfo s) {
         return service.criar(s);
-    }
-
-    @DeleteMapping("/{id}")
-    public void deletar(@PathVariable Long id) {
-        service.deletar(id);
     }
 }

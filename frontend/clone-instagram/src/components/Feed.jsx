@@ -5,8 +5,6 @@ import MyUserIcon from "/photos/my-user-icon.jpg";
 import Story from "./Story";
 import Post from "./Post";
 
-import { getAllPosts } from "../services/PostService";
-
 import {
   BsInstagram,
   BsChevronDown,
@@ -20,27 +18,12 @@ import {
 } from "react-icons/bs";
 
 import "../css/Feed.css";
-import { getAllStories } from "../services/StoryService";
 
-const Feed = ({ setEnterStoryViewer, setCurrentStory }) => {
-  const [posts, setPosts] = useState(null);
-  const [stories, setStories] = useState(null);
-  useEffect(() => {
-    getAllPosts().then((response) => {
-      console.log(response.data);
-      setPosts(response.data);
-    });
-
-    getAllStories().then((response) => {
-      console.log(response.data);
-      setStories(response.data);
-    });
-  }, []);
-
+const Feed = ({ posts, stories, setEnterStoryViewer, setCurrentStory }) => {
   return (
     <div className="main container-fluid">
       <div className="row">
-        <div className="col-12 col-md-1 col-xl-2 border">
+        <div className="col-12 col-md-1 col-xl-2">
           <div className="dashboard">
             <nav>
               <div className="d-none d-md-flex flex-md-column align-items-md-center align-items-xl-start w-100 mb-5">
