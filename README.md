@@ -1,6 +1,6 @@
 # 📸 Clone do Instagram
 
-Um projeto fullstack inspirado no **Instagram**, com funcionalidades essenciais de uma rede social, como autenticação de usuários, criação de posts e interação.
+Um projeto fullstack inspirado no **Instagram**, com interface semelhante, feed de publicações e visualização de stories.
 
 ## 📌 Índice
 
@@ -97,9 +97,8 @@ Clone-do-Instagram/
 
 ## 📌 Observações
 
-Este projeto foi desenvolvido com fins educacionais, com o objetivo de praticar:
+Este projeto foi desenvolvido para fins de aprendizado. Dito isso, posso dizer que aprendi sobre:
 
 * Integração entre frontend e backend
-* Autenticação de usuários
 * Manipulação de banco de dados
 * Estruturação de aplicações fullstack
