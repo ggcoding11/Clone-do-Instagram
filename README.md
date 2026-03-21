@@ -1,4 +1,4 @@
-# 📸 Clone do Instagram
+# Clone do Instagram (React + Spring)
 
 Um projeto fullstack inspirado no **Instagram**, com interface semelhante, feed de publicações e visualização de stories.
 
