@@ -2,6 +2,8 @@
 
 Um projeto fullstack inspirado no **Instagram**, com interface semelhante, feed de publicações e visualização de stories.
 
+![2026-03-20 21-44-04 (online-video-cutter com)](https://github.com/user-attachments/assets/919cc57e-f12f-4860-9f21-789e09e6c623)
+
 ## 📌 Índice
 
 * [Tecnologias utilizadas](#-tecnologias-utilizadas)
